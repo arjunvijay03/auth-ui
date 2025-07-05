@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  height: 100vh;
+}
+
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginCard {
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 320px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.loginCard h2 {
+  margin-bottom: 0.3rem;
+  color: #333;
+  text-align: center;
+}
+
+.loginCard p {
+  margin-bottom: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.footer {
+  text-align: right;
+  margin-top: 0.8rem;
+}
+
+.footer a {
+  font-size: 0.85rem;
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
